@@ -13,3 +13,22 @@
 > E-mail: __ivanboltrushko@gmail.com__
 >
 > Date of Birth: June 17, 1999
+
+### Objective:
+
+Successfully complete this course.
+
+To obtain a position of IT Specialist or any position related to software and hardware.
+
+### Education:
+2018 — present time
+
+Computer physics with specializations in "Theoretical physics",  
+"Computer simulation of physical processes". 
+Department of Physics and Mathematics, 3nd year study  
+Brest state A.S. Pushkin university
+
+2014 — 2018
+Technician,
+Automation and telemechanics in railway transport.  
+Brest College-branch educational Institution " Belarusian State University of Transport"
