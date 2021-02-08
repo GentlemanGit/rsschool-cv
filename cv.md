@@ -32,3 +32,26 @@ Brest state A.S. Pushkin university
 Technician,
 Automation and telemechanics in railway transport.  
 Brest College-branch educational Institution " Belarusian State University of Transport"
+
+### Skills:
+
+__Programming languages:__ 
+
+- Java Script
+- C#
+
+__Languages:__
+
+- Russian — native
+
+- Belarusian — native
+
+- English — level A2
+
+### Personal information:
+
+Communicative, work well individually and in team, willing to travel a lot.
+
+### Additional information:
+
+Driving license.
