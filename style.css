@@ -1,31 +1,43 @@
-body {
-  background: url(background.jpg); /* фоновое изображение*/
-  background-size: 40% 150%; /* растягивание фонового изображения*/
-}
-.main {
-  /* центрирование блока main по горизонтали*/
-  margin-left: 25%;
-  margin-right: 25%;
-}
-h1 {
-  color: #111550; /*цвет текста*/
-  font: 400% serif; /*Шрифт */
+header {
+  max-height: 5%; /*максимальная высота блока*/
+  position: relative; /*выбор позиционирования*/
+  text-shadow: 0 0 3px; /*тень текста*/
   text-align: center; /*центрирование текста по центру*/
 }
-.info {
-  border: 2px ridge rgb(109, 107, 107); /* Параметры границы  блока*/
-  color: #111550; /*цвет текста*/
-  padding: 20px; /* Поля вокруг текста */
-  background-color: #cccccc; /*цвет поля*/
-  font: 14pt sans-serif; /*Шрифт */
+body {
+  font-family: "Open Sans Condensed", sans-serif; /*шрифт*/
+  background: url(background.jpg); /* фоновое изображение*/
+  background-size: 40% 150%; /* растягивание фонового изображения*/
+  background-attachment: fixed; /*не двигать фоновое изображение*/
+  color: #010213; /*цвет текста*/
+  font-size: 14pt; /*размер шрифта*/
 }
-.space {
-  padding: 20px; /*размер пробелов между блоками*/
+.centre {
+  display: flex; /*гибкое отображение*/
+  justify-content: center; /*выравивание контента по центру*/
+}
+main {
+  margin: 3px; /*отступ от блока*/
+  max-width: 600px; /*максимальная ширина блока*/
+  box-shadow: 0 0 10px; /*тень блока*/
+  padding: 15px; /* Поля вокруг текста */
+  background-color: #ece6e6cc; /*цвет поля*/
+  border-radius: 20px; /*скругление углов блока*/
 }
 img {
-  float: right; /*Обтекание текстом слева*/
-  position: relative; /*выбор позиционирования*/
-  top: 30px; /*отступ сверху*/
-  right: 30px; /*отступ справа*/
-  border: 2px ridge rgb(109, 107, 107); /* Параметры границы  картинки*/
+  margin: auto; /* Поля вокруг изображения */
+  border-radius: 12%; /*скругление углов изображения*/
+}
+aside {
+  margin: 3px; /*отступ от блока*/
+  max-width: 250px; /*максимальная ширина блока*/
+  max-height: 680px; /*максимальная высота блока*/
+  box-shadow: 0 0 10px; /*тень блока*/
+  border-radius: 20px; /*скругление углов блока*/
+  padding: 20px; /* Поля вокруг текста */
+  background-color: #ece6e6cc; /*цвет поля*/
+}
+
+summary {
+  outline: none; /*убрать обводку*/
 }
